@@ -53,3 +53,9 @@ struct DessertRowView: View {
         }
     }
 }
+
+#Preview {
+    NavigationView {
+        DessertListView()
+    }
+}
